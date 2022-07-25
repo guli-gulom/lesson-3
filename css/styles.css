@@ -1,0 +1,13 @@
+
+
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+.light{
+    background-color: lightblue;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
