@@ -8,7 +8,6 @@ const Card = (key, theme, title)=>{
     console.log(theme);
 return(
     React.createElement("div", {className: `card ${th}`, key: key}, [
-    Card("card4", "light"),
     React.createElement("div", {className: `${key}_card-header1`}, [
             React.createElement("img", {src: cardImg,className: "card-img", key: `${key}_card-img`}, )
         ]),
