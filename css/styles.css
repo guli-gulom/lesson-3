@@ -1,9 +1,22 @@
 
 
 .flex{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+}
+.card-body{
+    padding: 2px 1rem;
+}
+.card-img{
+    width: 100%;
+    height:100%;
+    
 }
 .light{
     background-color: lightblue;

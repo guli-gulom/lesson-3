@@ -7,12 +7,12 @@ const Card = (key, theme, title)=>{
     let th = theme === "light" ? "light" : "dark"
 
 return(
-    React.createElement("div", {className: `card ${th}`, key: key}, [
-    React.createElement("div", {className: `${key}_card-header1`}, [
+    React.createElement("div", {className:  `card ${th}`, key: key}, [
+    React.createElement("div", {className: "card-header", key: `${key}_card-header1`}, [
             React.createElement("img", {src: cardImg,className: "card-img", key: `${key}_card-img`}, )
         ]),
-        React.createElement("div",{className: `${key}_card-body`}, [
-            React.createElement("h1", {}, title )
+        React.createElement("div",{className: "card-body",key: `${key}_card-body`}, [
+            React.createElement("h1", {className: "card-title", key: `${key}_title` }, title )
         ]),
         React.createElement("p",{}, lorem)
        
