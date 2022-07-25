@@ -5,7 +5,7 @@ const cardImg = "./images/7.jpeg"
 const lorem = ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, vel? Placeat, laudantium ad ipsum error aspernatur adipisci reiciendis earum unde omnis fugit nisi itaque dolores laboriosam cum, totam corporis amet.'
 const Card = (key, theme, title)=>{
     let th = theme === "light" ? "light" : "dark"
-    console.log(theme);
+
 return(
     React.createElement("div", {className: `card ${th}`, key: key}, [
     React.createElement("div", {className: `${key}_card-header1`}, [
