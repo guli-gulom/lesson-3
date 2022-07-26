@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    nav{
+        display: flex;
+        justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     ul li{
+     display: inline-block;
+     margin-left: 2rem;
+     color: #230B59;
+     }
+    
+     .logo{
+        display: flex;
+        h1{
+            color: #230B59;
+            font-weight: 900;
+            font-size: 1.8rem;
+         }
+      
+     }
+     .btn-group{
+        display: flex;
+        gap: 1rem;
+        .btn1{
+            padding: .9rem 1.5rem;
+            color: #230B59;
+            border: 1px solid #4840BB;
+            border-radius: 6px;
+        }
+        .btn2{
+            background: #4840BB;
+            border-radius: 6px;
+            padding: .9rem 1.5rem;
+            color: #fff;
+            border: 0;
+        }
+       }
+    }
+}
+@import "main"
