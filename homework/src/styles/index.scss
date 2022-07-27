@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: all .5s ease-in;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     max-width: 1200px;
@@ -17,6 +19,7 @@
      display: inline-block;
      margin-left: 2rem;
      color: #230B59;
+     flex-wrap: wrap;
      }
     
      .logo{

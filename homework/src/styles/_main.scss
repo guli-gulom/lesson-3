@@ -39,6 +39,7 @@
     justify-content: space-between;
     gap: 1rem;
     padding: 1rem 0;
+    flex-wrap: wrap;
     .card{
         padding: 1rem 0;
         h3{
@@ -62,6 +63,10 @@
             color: #230B59;
             font-weight: 900;
             font-size: 1.7rem;
+            i{
+                color: #230B59;
+                margin-right: .5rem;
+            }
         }
         p{
             color: #230B59;
@@ -71,17 +76,20 @@
 }
 .flex-container{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
     gap: 1rem;
     padding: 2rem;
+    flex-wrap: wrap;
     .card1{
+        padding: 0 .5rem;
         h1{
-            height: 270px;
+            height: 260px;
 font-weight: 400;
 font-size: 56px;
-line-height: 54px;
+line-height: 48px;
 letter-spacing: 3px;
 color: #230B59;
+margin-top: 1rem;
         }
         p{
             height: 87px;
@@ -89,6 +97,319 @@ font-weight: 400;
 font-size: 17px;
 line-height: 22px;
 color: #230B59;
+padding: .5rem 0;
+        }
+        .btn-group{
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 0;
+            margin: 30px auto;
+            .btns1{
+                background: #4840BB;
+                border-radius: 6px;
+                padding: .9rem 1.5rem;
+                color: #fff;
+                border: 0;
+                font-size: 1rem;
+            }
+            .btns2{
+                height: 40px;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 22px;
+            color: #230B59;
+            border: 0;
+            background: transparent;
+            margin-right: 2rem;
+            }
+        }
+    }
+    .card{
+        margin-left: .7rem;
+        position: relative;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+            img{
+                margin-top: .3rem;
+                width: 10%;
+            }
+        }
+        p{
+            height: 36px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 18px;
+            color: #000000;
+            padding-left: .7rem;
+            margin-top: .7rem;
+        }
+        .position{
+            position: absolute;
+            height: 97px;
+left: -38px;
+top: 32%;
+background: rgba(255, 255, 255, 0.85);
+border-radius: 12px;
+font-size: 12px;
+margin-top: .2rem;
+z-index: 1;
+opacity: .8;
+p{
+    color: #000000;
+    margin: 13px 0 0 0;
+    line-height: 21px;
+}
+        }
+    }
+    .card2{
+        z-index: 99999;
+    }
+}
+.grid-container2{
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    .card1{
+        img{
+            height: 500px;
+            margin-top: 3rem;
+            
+        }
+    }
+    .card2{
+        img{
+            height: 600px;
+        }
+    }
+    .card3{
+        margin: 50px auto;
+        padding: 1rem 5rem 0 0;
+        
+            h1{
+            height: 270px;
+font-weight: 400;
+font-size: 49px;
+line-height: 50px;
+letter-spacing: 3px;
+color: #230B59;
+
+        }
+        p{
+height: 80px;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #230B59;
+        }
+        .btn-group{
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            margin: 30px auto;
+            .btns1{
+                background: #4840BB;
+                border-radius: 6px;
+                padding: .9rem 1.5rem;
+                color: #fff;
+                border: 0;
+                font-size: 1rem;
+            }
+            .btns2{
+                height: 40px;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 22px;
+            color: #230B59;
+            border: 0;
+            background: transparent;
+            margin-right: 2rem;
+            }
         }
     }
 }
+
+.grid-container3{
+    background-color: #4840BB;
+    margin: 30px auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+padding: 1rem 2rem;
+flex-wrap: wrap;
+.card1{
+    padding: 2rem 5.5rem 2.5rem 2.5rem;
+    h1{
+        height: 270px;
+font-weight: 400;
+font-size: 56px;
+line-height: 50px;
+letter-spacing: 3px;
+color: #FFFFFF;
+padding-top: 2.5rem;
+padding-right: 2rem;
+    }
+    p{
+        padding-top: 2rem;
+        height: 87px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+    }
+    
+}
+}
+.grid-container4{
+    height: 563px;
+background: #230B59;
+border-radius: 0px;
+position: relative;
+.for-position{
+    position: absolute;
+    bottom: -110px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1rem;
+padding: 0 4rem;
+flex-wrap: wrap;
+.card{
+background: #FFFFFF;
+border-radius: 6px;
+padding: 2.5rem 2rem;
+height: 400px;
+h5{
+    height: 17px;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+letter-spacing: 0.7px;
+text-transform: uppercase;
+color: #230B59;
+padding: 1rem 0 2rem 0;
+}
+h2{
+    color: #230B59;
+    height: 210px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 44px;
+margin-bottom: 2rem;
+    span{
+        color:#140635d3;
+        font-weight: 600;
+    }
+}
+h6{
+    height: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #230B59;
+    margin-top: 3.5rem;
+}
+}
+}
+
+}
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    flex-direction: column;
+    .card{
+        h1{
+            width: 850px;
+height: 162px;
+font-weight: 400;
+font-size: 58px;
+line-height: 54px;
+text-align: center;
+letter-spacing: 3px;
+color: #230B59;
+margin-right: 2rem;
+span{
+    color: #1e113b;
+    font-weight: 600;
+}
+        }
+        button{
+            background: #4840BB;
+            border-radius: 6px;
+            padding: .9rem 1.5rem;
+            color: #fff;
+            border: 0;
+            font-size: 1rem;
+            margin-top: 2.7rem ;
+            margin-left: 44%;
+
+        }
+    }
+}
+.h5{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    color: #230B59;
+}
+.grid-container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+.item{
+    h3{
+        color:#230B59;
+    
+        font-weight: 900;
+ 
+    }
+    i{
+        font-size: 2.5rem;
+        color: #230B59;
+        font-weight: bolder;
+        margin-bottom: 0;
+     }
+    .h3{
+   color: #230B59;
+   font-weight: 900;
+   font-size: 1.5rem;
+   margin-top: 1.5rem;
+
+    }
+    .wsj{
+        font-weight: 400;
+        color: #230B59;
+        font-size: 1.5rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-top: 1.5rem;
+    }
+    img{
+     margin-top: 1rem;
+    }
+    .reuters{
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
+        font-size: 1.7rem;
+        color: #230B59;
+        font-weight: 800;
+        margin-top: 1rem;
+        i{
+            font-size: 2.3rem;
+            margin-right: 1rem;
+            margin-left: .3rem;
+        }
+    }
+}
+}
+@import "footer"

@@ -1,0 +1,48 @@
+.container-fluid{ 
+height: 700px;
+margin: 3.7rem 0;
+background: #18172B;
+border-radius: 0px;
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    .grid-container{
+        display: grid;
+        grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin: 1.5rem 0;
+        .logo{
+            display: flex;
+            h1{
+                color: #fff;
+                font-weight: bolder;
+            }
+            img{
+                width: 5%;
+                height: 40px;
+               
+            }
+        }
+        ul{
+            list-style: none;
+            li{
+                color: #fff;
+                line-height: 36px;
+                font-weight: 400;
+            }
+        }
+        
+    }
+    p{
+        color:rgba(220, 220, 220, 0.596);
+        line-height: 29px;
+        font-size: 14px;
+        margin-top: 1.5rem;
+    }
+  }
+  
+}
+
+
